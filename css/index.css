@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  border: 6px solid black;
+  padding: 10%;
+  background-color: #c4d3d9;
+  max-width: 1200px;
+  align-items: center;
+ min-height: 100vh;
+  
+}
+
+main{
+  width: 90%;
+}
+
+
+header .header-title{
+  align-items: center;
+  
+}
+
+.header-title {
+  display: flex;
+  height: 200px;
+  width: 90%;
+  padding: 8px;
+  margin: 0 auto;;
+  justify-content: center;
+  background-image: url(/images/texas.jpeg);
+  background-size: cover;
+  align-items: center;
+  background-position: center;
+}
+
+
+.header-title h1 {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  font-size: 65px;
+  
+}
+
+
+h1 span {
+  
+  background-color: rgba(222,222,222, 0.5);
+  letter-spacing: 65px;
+  text-transform: uppercase;
+}
+
+
+.cities {
+  overflow: hidden;
+ 
+}
+
+.cities ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 18px;
+
+
+}
+
+.cities ul li {
+  
+  width: 25%;
+}
+
+.cities ul li a {
+  color: black;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  
+}
+
+.cities ul li a:hover {
+  color: red;
+}
+
+a:link {
+  color: #2017a1;
+}
+
+a:visted {
+  color: lightblue;
+}
+
+a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+a:active {
+  color: red;
+}
+
+aside{
+  width: 30%;
+background-color: rgb(29, 42, 73);
+  text-align: center;
+  color:white;
+  float: right;
+  position: relative;
+}
+
+a{
+  color: #aa611d;
+}
+
+#texas-fact{
+  font-style: italic;
+  font-size: 16px;
+}
+
+table{
+  margin: 0 auto;
+}
+
+footer{
+  background-color: none;
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.contact-area{
+  display: flexbox;
+  justify-items: center;
+  align-items: center;
+}
+
+
+
+#contact-form{
+  margin: 0px 200px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  
+}
+

@@ -1,0 +1,141 @@
+body {
+  border: 6px solid black;
+  padding: 10%;
+  background-color: #c4d3d9;
+  max-width: 1200px;
+
+}
+
+header {
+  text-align: center;
+}
+
+header .header1 {
+  text-align: center;
+  background-color: #c4d3d9;
+  margin-bottom: -60px;
+  font-faimily: 'Times New Roman', Times, serif;
+}
+
+.outdoors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.outdoors ol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.outdoors ol li {
+  flex-basis: 50%;
+}
+
+
+.city-img {
+  width: 100%;
+  height: 100%;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main h3 {
+  text-align: center;
+}
+
+a {
+  color: #aa611d;
+}
+
+a:link {
+  color: #2017a1;
+}
+
+a:visted {
+  color: lightblue;
+}
+
+a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+a:active {
+  color: red;
+}
+
+.nav4cities {
+  overflow: hidden;
+
+}
+
+.nav4cities ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.nav4cities ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.nav4cities ul li a {
+  color: #750f0f;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+.nav4cities ul li a:hover {
+  color: #994f0a;
+}
+
+#texasfact-2 {
+  font-style: italic;
+  margin-top: -10px;
+  text-align: center;
+  font-size: 16px;
+  float: right;
+}
+
+aside {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-right: -40px;
+  width: 20%;
+  background-color: rgb(29, 42, 73);
+  text-align: center;
+  color: white;
+  float: right;
+  position: relative;
+}
+
+.texas-table {
+  margin: 0 auto;
+}
+
+.things-to-do ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.things-to-do ul li {
+  margin: 10px;
+
+}
+
+article{
+  text-align: center;
+  font-size: 20px;
+}
+footer {
+  background-color: none;
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+  margin-top: auto;
+}
